@@ -21,5 +21,5 @@
 
 zstyle ':completion:*:git-checkout:*' sort false
 zstyle ':completion:*' menu no
-zstyle ':completion:*:ssh:*' hosts $(grep '^Host ' ~/.ssh/config | awk '{print $2}' | grep -v '*')
+zstyle ':completion:*:ssh:*' hosts $(grep -s '^Host ' ~/.ssh/config | awk '{print $2}' | grep -v '*')
 zstyle ':completion:*:*:ssh:*' tag-order hosts
