@@ -1,4 +1,4 @@
-HISTFILE=~/.cache/zsh/history
+HISTFILE=~/.local/state/zsh/history
 mkdir -p "${HISTFILE:h}"
 
 HISTSIZE=5000
