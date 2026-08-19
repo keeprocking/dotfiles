@@ -9,7 +9,7 @@ branch = false
 rebase = true
 
 [include]
-path = ~/.gitconfig.local
+path = ~/.config/git/local
 
 [credential "https://github.com"]
 helper =
